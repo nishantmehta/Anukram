@@ -1,0 +1,4 @@
+rootProject.name = 'Anukram'
+include 'id-generator-service'
+include 'id-generator-model'
+

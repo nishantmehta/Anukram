@@ -1,0 +1,17 @@
+group 'Anukram'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+mainClassName = 'com.nishant.anukram.AnukramApplication'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'io.dropwizard:dropwizard-core:1.1.1'
+    compile project(':id-generator-model')
+}
